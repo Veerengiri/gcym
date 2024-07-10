@@ -7,7 +7,7 @@ const app = express();
 const cors = require("cors");
 const mongoose = require("mongoose");
 
-const mongourl = "mongodb+srv://Veerengiri:762003@cluster0.vjo3ghd.mongodb.net/cym?retryWrites=true&w=majority"
+const mongourl = ""
 
 mongoose.connect(mongourl,{}).then(()=>{
     console.log("connected mongourl successfully");
